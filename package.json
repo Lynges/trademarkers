@@ -1,0 +1,29 @@
+{
+  "name": "trademarkers",
+  "version": "1.0.0",
+  "description": "Generator for Mare Nostrum Trade Exchange Makers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynges/trademarkers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lynges/trademarkers/issues"
+  },
+  "homepage": "https://github.com/lynges/trademarkers#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "svg.js": "^2.7.1",
+    "text-to-svg": "^3.1.5",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.6.0"
+  }
+}
